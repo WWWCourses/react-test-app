@@ -1,26 +1,23 @@
-// let root = {
-// 	render(x){
-// 		console.log(x);
-// 	}
+// function foo({id}) {
+// 	console.log(id);
 // }
-
-// root.render(
-// 	<React.StrictMode>
-// 	  <App />
-// 	</React.StrictMode>
-// );
-
-// function createElement(x, y, z) {
-// 	console.log(x, y, z);
-// }
+// foo( {id:1, tmp:'TMP'} );
 
 
-// createElement('div', {class:'red'}, 'Div Node');
+// let obj = {id:1, tmp:'TMP'};
 
-function foo(props) {
-	return (
-		2+2
-	)
+// let id,tmp;
+// {id, tmp} = {obj}
+// console.log(id);
+// console.log(tmp);
+
+
+function bar(x) {
+	return x**2
 }
 
+function foo() {
+	return bar(1),bar(2)
+}
 console.log( foo() );
+
