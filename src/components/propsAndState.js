@@ -3,7 +3,6 @@ import React from "react";
 function Parent(props) {
 	return <div>
 		<Child id="1" tmp="TMP">Hello</Child>
-		<ChildAsClass id="1" tmp="TMP">Hello</ChildAsClass>
 	</div>
 }
 
