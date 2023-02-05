@@ -2,7 +2,8 @@
 import TodoList from "./components/todoList";
 import PropsAndState from "./components/propsAndState";
 import { TodoAdd } from "./components/todoAdd";
-import { Counter,CounterClassComponent } from "./components/counter";
+// import { Counter,CounterClassComponent } from "./components/counter";
+import { CheckboxesDemo } from "./components/checkboxesDemo";
 
 const todos = [
 	{
@@ -33,8 +34,9 @@ function App(props) {
 	return <div>
 		{/* <TodoList todos={todos}/> */}
 		{/* <PropsAndState/> */}
-		<TodoAdd/>
+		{/* <TodoAdd/> */}
 		{/* <CounterClassComponent/> */}
+		<CheckboxesDemo/>
 
 	</div>
 }
